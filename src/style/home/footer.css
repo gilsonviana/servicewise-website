@@ -1,0 +1,16 @@
+.home__footer {
+    display: grid;
+    grid-template-columns: var(--grid-gutter) repeat(3, 1fr) var(--grid-gutter);
+}
+
+.home__footer__nav {
+    grid-column: 2;
+}
+
+.home__footer__info {
+    grid-column: 3;
+}
+
+.home__footer__copyrights {
+    grid-column: 4;
+}

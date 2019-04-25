@@ -1,0 +1,12 @@
+.home__download {
+    display: grid;
+    grid-template-columns: var(--grid-gutter) 45% 45% var(--grid-gutter);   
+}
+
+.home__download__bkg {
+    grid-column: 1 / 3;
+}
+
+.home__download__content {
+    grid-column: 3;
+}

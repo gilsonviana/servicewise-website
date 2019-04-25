@@ -1,3 +1,10 @@
 :root {
     --font-primary: 'Poppins', sans-serif;
+
+    --color-primary: #16BDE9;
+    --color-secondary: #FFAE51;
+    --color-ternary: #FF5858;
+    --color-black: #484848;
+
+    --grid-gutter: 5%;    
 }

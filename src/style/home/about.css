@@ -1,0 +1,12 @@
+.home__about {
+    display: grid;
+    grid-template-columns: var(--grid-gutter) 45% 45% var(--grid-gutter);    
+}
+
+.home__about__content {
+    grid-column: 2;
+}
+
+.home__about__bkg {
+    grid-column: 3 / 5;
+}

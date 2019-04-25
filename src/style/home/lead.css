@@ -1,0 +1,26 @@
+.home__lead {
+    display: grid;
+    grid-template-columns: var(--grid-gutter) 55% 35% var(--grid-gutter);
+    grid-template-rows: repeat(2, auto);
+    position: relative;
+}
+
+.home__lead__logo {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.home__lead__nav {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.home__lead__bkg {
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.home__lead__content {
+    grid-column: 3;
+    grid-row: 2;
+}

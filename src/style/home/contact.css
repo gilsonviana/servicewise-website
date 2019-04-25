@@ -1,0 +1,12 @@
+.home__contact {
+    display: grid;
+    grid-template-columns: var(--grid-gutter) 45% 45% var(--grid-gutter);   
+}
+
+.home__contact__content {
+    grid-column: 2;
+}
+
+.home__contact__bkg {
+    grid-column: 3 / 5;
+}
