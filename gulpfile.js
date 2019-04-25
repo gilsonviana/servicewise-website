@@ -1,7 +1,17 @@
 const gulp        = require('gulp'),
       concat      = require('gulp-concat'),
       cleanCSS    = require('gulp-clean-css'),      
+      imageMin    = require('gulp-imagemin'),
       browserSync = require('browser-sync').create();
+
+/**
+ * Minify images
+ */
+gulp.task('imgSquash', () => {
+    gulp.src('src/img/*.png')
+        .pipe(imageMin())
+        .pipe(gulp.dest('dist/img/'));
+});
 
 /**
  * Copy HTML files
@@ -26,7 +36,7 @@ gulp.task('css', () => {
 /**
  * Create static server and watchers
  */
-gulp.task('browser-sync', ['html','css'], () => {
+gulp.task('browser-sync', ['html','css', 'imgSquash'], () => {
    browserSync.init({
        server: {
            baseDir: 'dist/'
@@ -35,6 +45,7 @@ gulp.task('browser-sync', ['html','css'], () => {
    
    gulp.watch('src/style/**/*.css', ['css']);
    gulp.watch('src/**/*.html', ['html']);
+   gulp.watch('src/img/*.png', ['imgSquash']);
    
    gulp.watch('src/**/*.html').on('change', browserSync.reload);
 });

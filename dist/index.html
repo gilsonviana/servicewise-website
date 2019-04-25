@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ServiceWise</title>
+    <!-- Poppins font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,10 +16,9 @@
     <main class="page home">
         <section class="home__lead">
             <a href="#" class="home__lead__logo">
-                <img src="" alt="service wise" class="home__lead__logo__img">
+                <img src="img/logo.png" alt="service wise" class="home__lead__logo__img" width="329">
             </a>
-            <nav class="home__lead__nav">
-                <button class="home__lead__nav__toggler"></button>
+            <nav class="home__lead__nav">                
                 <div class="home__lead__nav__content">
                     <ul class="home__lead__nav__content__menu">
                         <li class="home__lead__nav__content__menu__item">
@@ -37,8 +38,10 @@
                         </li>
                     </ul>
                 </div>
+                <button class="home__lead__nav__toggler"></button>
             </nav>
-            <div class="home__lead__bkg"></div>
+            <div class="home__lead__bkg">                
+            </div>
             <div class="home__lead__content">
                 <h1 class="home__lead__content__title">All services in your hand.</h1>
                 <p class="home__lead__content__text">
@@ -46,7 +49,7 @@
                     ad vero tempore rerum repudiandae voluptatibus magnam explicabo deleniti
                     veniam corporis accusantium nemo ab, magni officiis qui earum inventore dolorem.
                 </p>
-                <h2 class="home__lead__content__title">Get <span>50%</span> off in your first service</h2>
+                <h3 class="home__lead__content__title">Get <span>50%</span> off in your first service</h3>
                 <p class="home__lead__content__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum
                     ad vero tempore rerum repudiandae voluptatibus magnam explicabo deleniti
@@ -55,22 +58,27 @@
                 <form action="" class="home__lead__content__subscribe">
                     <div class="home__lead__content__subscribe__group">
                         <label class="home__lead__content__subscribe__group__label" for="email">Email</label>
-                        <input type="email" name="email" class="home__lead__content__subscribe__group__input">
+                        <input type="email" name="email" class="home__lead__content__subscribe__group__input" placeholder="john.doe@gmail.com">
                     </div>
                     <div class="home__lead__content__subscribe__group">
-                        <input type="text" name="zipcode" class="home__lead__content__subscribe__group__input">
+                        <input type="text" name="zipcode" class="home__lead__content__subscribe__group__input" placeholder="Zip Code">
                     </div>
-                    <button type="submit" class="home__lead__content__subscribe__submit"></button>
+                    <button type="submit" class="home__lead__content__subscribe__submit">
+                        <img src="img/send-icon.png" alt="send">
+                    </button>
                 </form>
             </div>
         </section>
 
         <section class="home__fab">
             <header class="home__fab__header">
-                <img src="" alt="" class="home__fab__header__img">
-                <h6 class="home__fab__header__title">
-                    get 50% off in your first service
-                </h6>
+                <img src="img/fab-icon.png" alt="" class="home__fab__header__img" width="41" height="41">
+                <div class="home__fab__header__right">
+                    <h4 class="home__fab__header__title">
+                        get 50% off
+                    </h4>
+                    <h4 class="home__fab__header__subtitle">in your first service</h4>
+                </div>
             </header>
             <div class="home__fab__content">
                 <p class="home__fab__content__text">
@@ -93,7 +101,7 @@
 
         <section class="home__about">
             <div class="home__about__content">
-                <h4 class="home__about__content__title">about us</h4>
+                <h5 class="home__about__content__title">about us</h5>
                 <h2 class="home__about__content__heading">
                     Find the right person to
                     do your home cleaning

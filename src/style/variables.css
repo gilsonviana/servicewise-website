@@ -1,10 +1,14 @@
 :root {
     --font-primary: 'Poppins', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 
     --color-primary: #16BDE9;
     --color-secondary: #FFAE51;
     --color-ternary: #FF5858;
     --color-black: #484848;
+    --color-white: #FFFFFF;
+    --color-dark-blue: #05759f;
 
     --grid-gutter: 5%;    
 }

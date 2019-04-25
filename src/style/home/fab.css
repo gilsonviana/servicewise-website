@@ -1,4 +1,30 @@
 .home__fab {
+    box-sizing: border-box;
+    background: var(--color-ternary);
+    border-radius: 5px 0 0 5px;
+    color: var(--color-white);
+    padding: 12px 44px;
     position: absolute;
-    right: 0;
+    right: 0;   
+    width: 366px;
+}
+
+.home__fab__header {
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.home__fab__header__title {
+    font-weight: var(--font-weight-bold);
+    font-size: 30px;
+}
+
+.home__fab__header__subtitle {
+    font-weight: var(--font-weight-regular);
+}
+
+.home__fab__content {
+    display: none;
 }

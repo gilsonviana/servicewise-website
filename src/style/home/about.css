@@ -1,5 +1,36 @@
+/**
+ * Style
+ */
+.home__about__content {
+    margin-top: 329px;
+    width: 592px;    
+}
+
+.home__about__content__title {
+    font-weight: var(--font-weight-regular);
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+.home__about__content__heading {
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 33px;
+    line-height: 64px;    
+}
+
+.home__about__bkg {
+    margin-top: 231px;
+    background: 
+        url('img/about-bkg.png') no-repeat;
+    background-size: 968px 562px;
+}
+
+/**
+ * Grid
+ */
 .home__about {
     display: grid;
+    height: 822px;
     grid-template-columns: var(--grid-gutter) 45% 45% var(--grid-gutter);    
 }
 
