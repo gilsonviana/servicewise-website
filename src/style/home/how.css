@@ -1,109 +1,94 @@
-/** 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    /** 
     * Style
     */
-
-.home__how {
-    margin-top: 44px;
-}
-
-.home__how__row__content__text {
-    font-size: 14px;
-    width: 597px;
-}
-
-/* row 1 */
-
-.home__how__row:nth-child(1) {
-    height: 715px;
-}
-
-.home__how__row:nth-child(1) .home__how__row__content {
-    place-self: center;
-}
-
-.home__how__row__content__header {
-    margin: 0 auto 30px;
-    width: 311px;
-}
-
-.home__how__row__content__header__title::before {
-    background: var(--color-secondary);
-    border-radius: 2px;
-    content: "";
-    display: block;
-    height: 4px;
-    width: 79px;
-    position: relative;
-    left: -24px;
-}
-
-.home__how__row__content__header__title {
-    text-transform: uppercase;
-    transform: translateX(24px);
-    line-height: 64px;
-    font-weight: var(--font-weight-regular);
-}
-
-.home__how__row__content__header__subtitle {
-    color: var(--color-dark-blue);
-    font-weight: var(--font-weight-bold);
-    text-align: center;;
-}
-
-.home__how__row:nth-child(1) .home__how__row__bkg {
-    background: url('img/how-row-1.png') no-repeat;
-    background-size: contain;
-    background-position: -35px;
-    height: 335px;
-    margin-bottom: 20px;
-}
-
-.home__how__row:nth-child(1) .home__how__row__content {
-    margin-top: 89px;    
-}
-
-.home__how__row__content__heading {
-    width: 310px;    
-    margin: 0 auto;
-    font-weight: var(--font-weight-regular);
-    line-height: 61px;    
-}
-.home__how__row__content__text {
-    width: 310px;    
-    margin: 0 auto;
-}
-
-/* row 2 */
-
-.home__how__row:nth-child(2) {
-    margin-bottom: 60px;    
-}
-
-.home__how__row:nth-child(2) .home__how__row__bkg {
-    background: url('img/how-row-2.png') no-repeat;
-    background-position: 20px;
-    background-size: cover;
-    height: 290px;
-    margin-bottom: 40px;
-}
-
-/* row 3 */
-.home__how__row:nth-child(3) .home__how__row__bkg {
-    background: url('img/how-row-3.png') no-repeat;
-    background-size: cover;
-    background-position: -75px;
-    height: 277px;
-}
-
-.home__how__row:nth-child(3) .home__how__row__content__heading {
-    margin-top: 36px;
-    line-height: 33px;
-    margin-bottom: 22px;
-}
-/* row 4 */
-.home__how__row:nth-child(4) .home__how__row__bkg {
-    background: url('img/how-row-4.png') no-repeat right;
-    background-size: cover;
-    height: 302px;
-    margin: 46px 0;
+    .home__how {
+        margin-top: 44px;
+    }
+    .home__how__row__content__text {
+        font-size: 14px;        
+    }
+    /* row 1 */
+    .home__how__row:nth-child(1) {
+        height: 715px;
+    }
+    .home__how__row:nth-child(1) .home__how__row__content {
+        place-self: center;
+    }
+    .home__how__row__content__header {
+        margin: 0 auto 30px;
+        width: 311px;
+    }
+    .home__how__row__content__header__title::before {
+        background: var(--color-secondary);
+        border-radius: 2px;
+        content: "";
+        display: block;
+        height: 4px;
+        width: 79px;
+        position: relative;
+        left: -24px;
+    }
+    .home__how__row__content__header__title {
+        text-transform: uppercase;
+        transform: translateX(24px);
+        line-height: 64px;
+        font-weight: var(--font-weight-regular);
+    }
+    .home__how__row__content__header__subtitle {
+        color: var(--color-dark-blue);
+        font-weight: var(--font-weight-bold);
+        text-align: center;
+        ;
+    }
+    .home__how__row:nth-child(1) .home__how__row__bkg {
+        background: url('img/how-row-1.png') no-repeat;
+        background-size: contain;
+        background-position: -35px;
+        height: 335px;
+        margin-bottom: 20px;
+    }
+    .home__how__row:nth-child(1) .home__how__row__content {
+        margin-top: 89px;
+    }
+    .home__how__row__content__heading {
+        width: 310px;
+        margin: 0 auto;
+        font-weight: var(--font-weight-regular);
+        line-height: 61px;
+    }
+    .home__how__row__content__text {
+        width: 310px;
+        margin: 0 auto;
+    }
+    /* row 2 */
+    .home__how__row:nth-child(2) {
+        margin-bottom: 60px;
+    }
+    .home__how__row:nth-child(2) .home__how__row__bkg {
+        background: url('img/how-row-2.png') no-repeat;
+        background-position: 20px;
+        background-size: cover;
+        height: 290px;
+        margin-bottom: 40px;
+    }
+    /* row 3 */
+    .home__how__row:nth-child(3) .home__how__row__bkg {
+        background: url('img/how-row-3.png') no-repeat;
+        background-size: cover;
+        background-position: -75px;
+        height: 277px;
+    }
+    .home__how__row:nth-child(3) .home__how__row__content__heading {
+        margin-top: 36px;
+        line-height: 33px;
+        margin-bottom: 22px;
+    }
+    /* row 4 */
+    .home__how__row:nth-child(4) .home__how__row__bkg {
+        background: url('img/how-row-4.png') no-repeat right;
+        background-size: cover;
+        height: 302px;
+        margin: 46px 0;
+    }
 }

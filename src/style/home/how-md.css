@@ -2,27 +2,21 @@
     /** 
      * Style
      */
-    .home__how {
-        margin-top: 108px;
-    }
-    .home__how h2 {
-        font-weight: var(--font-weight-regular);
-        line-height: 61px;
-        width: 597px;
+     .home__how {
+        margin-top: 44px;
     }
     .home__how__row__content__text {
         font-size: 20px;
+        margin: 0 auto;
         width: 597px;
     }
     /* row 1 */
     .home__how__row:nth-child(1) {
         height: 715px;
     }
-    .home__how__row:nth-child(1) .home__how__row__content {
-        place-self: center;
-    }
     .home__how__row__content__header {
-        margin-bottom: 131px;
+        margin: 0 auto 30px;
+        width: 311px;
     }
     .home__how__row__content__header__title::before {
         background: var(--color-secondary);
@@ -32,61 +26,69 @@
         height: 4px;
         width: 79px;
         position: relative;
-        left: -39px;
+        left: -24px;
     }
     .home__how__row__content__header__title {
         text-transform: uppercase;
-        transform: translateX(39px);
+        transform: translateX(24px);
         line-height: 64px;
+        font-weight: var(--font-weight-regular);
     }
     .home__how__row__content__header__subtitle {
         color: var(--color-dark-blue);
-        font-weight: var(--font-weight-bold) !important;
+        font-weight: var(--font-weight-bold);
+        text-align: center;
+        ;
     }
     .home__how__row:nth-child(1) .home__how__row__bkg {
         background: url('img/how-row-1.png') no-repeat;
         background-size: contain;
+        background-position: -35px;
+        height: 335px;
+        margin-bottom: 20px;
     }
     .home__how__row:nth-child(1) .home__how__row__content {
         margin-top: 89px;
     }
+    .home__how__row__content__heading {
+        width: 310px;
+        margin: 0 auto;
+        font-weight: var(--font-weight-regular);
+        line-height: 61px;
+    }    
     /* row 2 */
     .home__how__row:nth-child(2) {
-        height: 695px;
+        margin-bottom: 60px;
     }
     .home__how__row:nth-child(2) .home__how__row__bkg {
         background: url('img/how-row-2.png') no-repeat;
-    }
-    .home__how__row:nth-child(2) .home__how__row__content {
-        place-self: center;
+        background-position: 20px;
+        background-size: cover;
+        height: 290px;
+        margin-bottom: 40px;
     }
     /* row 3 */
-    .home__how__row:nth-child(3) {
-        height: 759px;
-    }
     .home__how__row:nth-child(3) .home__how__row__bkg {
         background: url('img/how-row-3.png') no-repeat;
-        background-size: contain;
+        background-size: cover;
+        background-position: -75px;
+        height: 277px;
     }
-    .home__how__row:nth-child(3) .home__how__row__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: url('img/how-row-3-content.png') no-repeat 90% 15%;
+    .home__how__row:nth-child(3) .home__how__row__content__heading {
+        margin-top: 36px;
+        line-height: 33px;
+        margin-bottom: 22px;
     }
-    /* row 4 */
+    /* row 4 */        
     .home__how__row:nth-child(4) {
-        height: 719px;
+        text-align: center;        
+        margin: 0 auto;
     }
+
     .home__how__row:nth-child(4) .home__how__row__bkg {
         background: url('img/how-row-4.png') no-repeat right;
-    }
-    .home__how__row:nth-child(4) .home__how__row__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: url('img/how-row-4-content.png') no-repeat center left;
+        background-size: contain;
+        height: 649px;
+        margin: 46px 0;        
     }
 }

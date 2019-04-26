@@ -4,7 +4,7 @@
  */
     .home__download {
         width: 746px;
-        margin: 0 auto 108px;
+        margin: 64px auto 108px;
     }
     .home__download__bkg {
         background: url('img/download-bkg-md.png') no-repeat;        
