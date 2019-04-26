@@ -1,3 +1,52 @@
+/**
+ * Style
+ */
+.home__footer {
+    background: var(--color-dark-blue);
+    color: var(--color-white);
+    font-size: 20px;
+    padding: 46px 0;
+}
+
+.home__footer p {
+    margin: 0;
+}
+
+.home__footer__nav,
+.home__footer__info {
+    border-right: 4px solid var(--color-primary);    
+}
+
+.home__footer__nav,
+.home__footer__info,
+.home__footer__copyrights { 
+    align-items: center;   
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+}
+
+.home__footer__nav__menu {
+    display: flex;
+    margin-left: 92px;    
+    text-align: left;
+}
+
+.home__footer__nav__menu__left {
+    margin-right: 44px;
+}
+
+.home__footer__nav__menu__link {
+    display: block;
+}
+
+.home__footer__info {
+    flex-direction: column;
+}
+
+/**
+ * Grid
+ */
 .home__footer {
     display: grid;
     grid-template-columns: var(--grid-gutter) repeat(3, 1fr) var(--grid-gutter);

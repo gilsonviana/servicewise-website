@@ -1,9 +1,24 @@
 /**
  * Style
  */
+.home__about {
+    height: 713px;
+    margin-top: 108px;
+ }
 .home__about__content {
-    margin-top: 329px;
-    width: 592px;    
+    place-self: center;
+    width: 592px;
+}
+
+.home__about__content__title::before {
+    background: var(--color-secondary);
+    border-radius: 2px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: -39px;
+    position: relative;
+    width: 79px;    
 }
 
 .home__about__content__title {
@@ -18,11 +33,12 @@
     line-height: 64px;    
 }
 
-.home__about__bkg {
-    margin-top: 231px;
-    background: 
-        url('img/about-bkg.png') no-repeat;
-    background-size: 968px 562px;
+.home__about__content__text {
+    font-size: 20px;
+}
+
+.home__about__bkg {    
+    background: url('img/about-bkg.png') no-repeat;        
 }
 
 /**
