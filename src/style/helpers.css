@@ -1,0 +1,22 @@
+.d-block {
+    display: block !important;
+}
+.d-none {
+    display: none !important;
+}
+@media screen and (min-width: 768px) {
+    .d-md-block {
+        display: block !important;
+    }
+    .d-md-none {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .d-lg-block {
+        display: block !important;
+    }
+    .d-lg-none {
+        display: none !important;
+    }
+}

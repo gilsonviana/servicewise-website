@@ -1,0 +1,49 @@
+@media screen and (min-width: 1920px) {
+    /**
+ * Style
+ */
+    .home__download {
+        height: 746px;
+        margin-bottom: 108px;
+    }
+    .home__download__bkg {
+        background: url('img/download-bkg.png') no-repeat;
+        background-size: contain;
+    }
+    .home__download__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url('img/download-content-bkg.png') no-repeat center;
+    }
+    .home__download__content__body {
+        max-width: 562px;
+        display: flex;
+        flex-direction: column;
+    }
+    .home__download__content__title {
+        line-height: 89px;
+    }
+    .home__download__content__links {
+        align-items: center;
+        display: flex;
+        margin-top: 18px;
+    }
+    .home__download__content__links__item {
+        margin-right: 10px;
+    }
+    /**
+ * Grid
+ */
+    .home__download {
+        display: grid;
+        grid-template-columns: var(--grid-gutter) 45% 45% var(--grid-gutter);
+    }
+    .home__download__bkg {
+        grid-column: 2;
+    }
+    .home__download__content {
+        grid-column: 3;
+    }
+}

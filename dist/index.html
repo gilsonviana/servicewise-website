@@ -13,13 +13,13 @@
 </head>
 
 <body>
-    <main class="page home">
+    <main class="page home" style="overflow: hidden">
         <section class="home__lead">
-            <a href="#" class="home__lead__logo">
-                <img src="img/logo.png" alt="service wise" class="home__lead__logo__img" width="329">
+            <a href="#" class="home__lead__logo d-none d-lg-block">
+                <img src="img/logo-md.png" alt="service wise" class="home__lead__logo__img" width="329">                
             </a>
-            <nav class="home__lead__nav">
-                <div class="home__lead__nav__content">
+            <nav class="home__lead__nav d-none d-lg-block">
+                <div class="home__lead__nav__content d-none d-lg-block">
                     <ul class="home__lead__nav__content__menu">
                         <li class="home__lead__nav__content__menu__item">
                             <a href="" class="home__lead__nav__content__menu__link">Home</a>
@@ -37,25 +37,39 @@
                             <a href="" class="home__lead__nav__content__menu__link">Contact</a>
                         </li>
                     </ul>
-                </div>
-                <button class="home__lead__nav__toggler"></button>
+                </div>                
+                <button class="home__lead__nav__toggler d-block d-lg-none">
+                    <img src="img/menu.png" alt="menu button">
+                </button>
             </nav>
-            <div class="home__lead__bkg">
+            <!-- Mobile - Tablet Menu -->
+            <div class="home__lead__header d-lg-none">
+                <a href="#" class="home__lead__logo">                    
+                    <img src="img/logo.png" alt="service wise" class="home__lead__logo__img d-md-none" width="130">
+                    <img src="img/logo-md.png" alt="service wise" class="home__lead__logo__img d-none d-md-block" width="204">
+                </a>
+                <nav class="home__lead__nav">                    
+                    <button class="home__lead__nav__toggler d-md-none">                        
+                        <img src="img/menu.png" alt="menu button">
+                    </button>
+                    <button class="home__lead__nav__toggler d-none d-md-block">                        
+                        <img src="img/menu-md.png" alt="menu button">
+                    </button>
+                </nav>
             </div>
             <div class="home__lead__content">
                 <h1 class="home__lead__content__title">All services in your hand.</h1>
                 <p class="home__lead__content__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum
-                    ad vero tempore rerum repudiandae voluptatibus magnam explicabo deleniti
-                    veniam corporis accusantium nemo ab, magni officiis qui earum inventore dolorem.
+                    ad vero tempore rerum repudiandae voluptatibus.
                 </p>
-                <h3 class="home__lead__content__title">Get <span>50%</span> off in your first service</h3>
-                <p class="home__lead__content__text">
+                <h3 class="home__lead__content__title d-none d-md-block">Get <span>50%</span> off in your first service</h3>
+                <p class="home__lead__content__text d-none d-md-block">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum
                     ad vero tempore rerum repudiandae voluptatibus magnam explicabo deleniti
                     veniam corporis accusantium nemo ab, magni officiis qui earum inventore dolorem.
                 </p>
-                <form action="" class="home__lead__content__subscribe">
+                <form action="" class="home__lead__content__subscribe d-none d-md-block">
                     <div class="home__lead__content__subscribe__group">
                         <label class="home__lead__content__subscribe__group__label" for="email">Email</label>
                         <input type="email" name="email" class="home__lead__content__subscribe__group__input"
@@ -72,15 +86,19 @@
             </div>
         </section>
 
-        <section class="home__fab home__fab--open">
+        <section class="home__fab">
             <header class="home__fab__header">
-                <img src="img/fab-icon.png" alt="" class="home__fab__header__img" width="41" height="41">
+                <img src="img/fab-icon.png" alt="" class="home__fab__header__img d-none d-lg-block" width="41" height="41">
+                <img src="img/fab-icon.png" alt="" class="home__fab__header__img d-lg-none" width="25" height="26">
                 <div class="home__fab__header__right">
-                    <h4 class="home__fab__header__title">
+                    <h4 class="home__fab__header__title d-none d-lg-block">
                         get 50% off
                     </h4>
-                    <h4 class="home__fab__header__subtitle">in your first service</h4>
-                </div>
+                    <h4 class="home__fab__header__title d-lg-none">
+                        50% off
+                    </h4>
+                    <h4 class="home__fab__header__subtitle d-none d-lg-block">in your first service</h4>
+                </div>                
             </header>
             <div class="home__fab__content">
                 <p class="home__fab__content__text">
@@ -120,35 +138,34 @@
 
         <section class="home__how">
             <article class="home__how__row">
-                <div class="home__how__row__bkg"></div>
+                <div class="home__how__row__bkg d-none d-md-block"></div>
                 <div class="home__how__row__content">
                     <header class="home__how__row__content__header">
                         <h5 class="home__how__row__content__header__title">how it works</h5>
                         <h2 class="home__how__row__content__header__subtitle">Service Wise is easy</h2>
                     </header>
+                    <div class="home__how__row__bkg d-md-none"></div>
                     <h2 class="home__how__row__content__heading">
                         Tell about your need
                     </h2>
                     <p class="home__how__row__content__text">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolore placeat fugit architecto eveniet maxime soluta animi reprehenderit,
-                        officiis sunt error necessitatibus voluptatibus esse totam velit? Deleniti, Fugit!
-                    </p>
+                        dolore placeat fugit architecto eveniet maxime.
+                    </p>                    
                 </div>
             </article>
 
             <article class="home__how__row">
                 <div class="home__how__row__content">
+                    <div class="home__how__row__bkg"></div>
                     <h2 class="home__how__row__content__heading">
                         Find the better professional
                     </h2>
                     <p class="home__how__row__content__text">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolore placeat fugit architecto eveniet maxime soluta animi reprehenderit,
-                        officiis sunt error necessitatibus voluptatibus esse totam velit? Deleniti, Fugit!
+                        dolore placeat fugit architecto eveniet maxime soluta animi.
                     </p>
                 </div>
-                <div class="home__how__row__bkg"></div>
             </article>
 
             <article class="home__how__row">
@@ -168,16 +185,16 @@
 
             <article class="home__how__row">
                 <div class="home__how__row__content">
+                    <div class="home__how__row__bkg d-md-none"></div>
                     <h2 class="home__how__row__content__heading">
                         Relax!
                     </h2>
                     <p class="home__how__row__content__text">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolore placeat fugit architecto eveniet maxime soluta animi reprehenderit,
-                        officiis sunt error necessitatibus voluptatibus esse totam velit? Deleniti, Fugit!
+                        dolore placeat fugit architecto eveniet maxime.
                     </p>
+                    <div class="home__how__row__bkg d-none d-md-block"></div>
                 </div>
-                <div class="home__how__row__bkg"></div>
             </article>
         </section>
 
@@ -185,19 +202,24 @@
             <div class="home__download__bkg"></div>
             <div class="home__download__content">
                 <div class="home__download__content__body">
-                    <h1 class="home__download__content__title">
+                    <h1 class="home__download__content__title d-md-none">
                         Download
+                        Service Wise
+                        Now!
+                    </h1>
+                    <h1 class="home__download__content__title d-none d-md-block">
+                        Download <br />
                         Service Wise
                         Now!
                     </h1>
                     <div class="home__download__content__links">
                         <a href="" class="home__download__content__links__item">
-                            <img src="img/google-play.png" alt="get it on google play"
-                                class="home__download__content__body__link__img" width="211" height="63">
+                            <img src="img/google-play.png" alt="get it on google play" class="home__download__content__body__link__img d-md-none" width="131" height="40">
+                            <img src="img/google-play-md.png" alt="get it on google play" class="home__download__content__body__link__img d-none d-md-block" width="211" height="63">
                         </a>
                         <a href="" class="home__download__content__links__item">
-                            <img src="img/app-store.png" alt="download on the app store"
-                                class="home__download__content__body__link__img" width="220" height="66">
+                            <img src="img/app-store.png" alt="download on the app store" class="home__download__content__body__link__img d-md-none" width="140" height="44">
+                            <img src="img/app-store-md.png" alt="download on the app store" class="home__download__content__body__link__img d-none d-md-block" width="220" height="66">
                         </a>
                     </div>
                 </div>
@@ -207,11 +229,10 @@
         <section class="home__contact">
             <div class="home__contact__content">
                 <h5 class="home__contact__content__title">contact</h5>
-                <h2 class="home__contact__content__heading">Any doubts? Talk to us.</h2>
+                <h3 class="home__contact__content__heading">Any doubts? Talk to us.</h3>
                 <p class="home__contact__content__text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-                    dolore placeat fugit architecto eveniet maxime soluta animi reprehenderit,
-                    officiis sunt error necessitatibus voluptatibus esse totam velit? Deleniti, Fugit!
+                    dolore placeat fugit architecto eveniet maxime
                 </p>
                 <form action="" class="home__contact__content__form">
                     <div class="home__contact__content__form__group">
@@ -228,8 +249,7 @@
                     </div>
                     <button type="submit" class="home__contact__content__form__submit">Send</button>
                 </form>
-            </div>
-            <div class="home__contact__bkg"></div>
+            </div>            
         </section>
 
         <footer class="home__footer">
@@ -238,7 +258,7 @@
                     <img src="img/footer-logo.png" alt="service wise" class="home__footer__nav__logo__img" width="41"
                         height="67">
                 </a>
-                <div class="home__footer__nav__menu">
+                <div class="home__footer__nav__menu d-none d-md-block">
                     <div class="home__footer__nav__menu__left">
                         <a href="#" class="home__footer__nav__menu__link">Home</a>
                         <a href="#" class="home__footer__nav__menu__link">About Us</a>

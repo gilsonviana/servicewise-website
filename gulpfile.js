@@ -45,7 +45,7 @@ gulp.task('browser-sync', ['html','css', 'imgSquash'], () => {
    
    gulp.watch('src/style/**/*.css', ['css']);
    gulp.watch('src/**/*.html', ['html']);
-   gulp.watch('src/img/*.png', ['imgSquash']);
+//    gulp.watch('src/img/*.png', ['imgSquash']);
    
    gulp.watch('src/**/*.html').on('change', browserSync.reload);
 });

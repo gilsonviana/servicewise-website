@@ -1,8 +1,7 @@
 /* @import url('../../node_modules/normalize.css/normalize.css'); */
 body {        
     color: var(--color-black);
-    font-family: var(--font-primary, 'Poppins');
-    font-size: 14px;
+    font-family: var(--font-primary, 'Poppins');    
     margin: 0;
 }
 
@@ -24,15 +23,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 86px;
+    font-size: 35px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 h4 {
@@ -40,9 +39,48 @@ h4 {
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 p {
+    font-size: 14px;
     line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }   
+    h3 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    h1 {
+        font-size: 86px;
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+    
+    h4 {
+        font-size: 21px;
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
 }

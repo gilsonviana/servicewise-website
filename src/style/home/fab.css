@@ -3,13 +3,15 @@
     background: var(--color-ternary);
     border-radius: 5px 0 0 5px;
     color: var(--color-white);
-    padding: 12px 44px;
+    padding: 9px 0 20px;
     position: absolute;
-    right: 0;   
-    width: 366px;
+    right: 0;
+    top: 602px;
+    width: 96px;
 }
 
 /* Add this class to apply style. Also home__fab__content element should be changed to display: block */
+
 .home__fab--open {
     padding-top: 31px;
     padding-bottom: 64px;
@@ -21,7 +23,9 @@
 }
 
 .home__fab__header {
-    line-height: 30px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home__fab__header__right {
@@ -31,7 +35,7 @@
 
 .home__fab__header__title {
     font-weight: var(--font-weight-bold);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .home__fab__header__subtitle {
@@ -52,7 +56,7 @@
 
 .home__fab__content__form__group__label {
     font-weight: var(--font-weight-bold);
-    color: var(--color-ternary);    
+    color: var(--color-ternary);
 }
 
 .home__fab__content__form__group__input {
