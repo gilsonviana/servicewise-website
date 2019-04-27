@@ -2,19 +2,17 @@
     /**
  * Style
  */
-    .home__contact {        
+    .home__contact {
         background: url('img/contact-bkg-md.png') no-repeat;
         background-size: cover;
         color: var(--color-white);
         padding: 164px 0 90px;
-    }    
-
+    }
     .home__contact__content {
         text-align: center;
         width: 566px;
-        margin: 0 auto;        
+        margin: 0 auto;
     }
-
     .home__contact__content__title::before {
         background: var(--color-secondary);
         border-radius: 2px;
@@ -22,20 +20,23 @@
         display: block;
         height: 4px;
         width: 79px;
-        margin: 0 auto 10px;        
+        margin: 0 auto 10px;
         transform: translateX(-41px);
     }
     .home__contact__content__title {
         text-transform: uppercase;
-        font-weight: var(--font-weight-regular);                
+        font-weight: var(--font-weight-regular);
     }
     .home__contact__content__heading {
         font-weight: var(--font-weight-regular);
         line-height: 85px;
     }
+    .home__contact__content__text {
+        font-family: var(--font-secondary);
+    }
     .home__contact__content__form {
         margin-top: 40px;
-    }    
+    }
     .home__contact__content__form__group {
         margin-bottom: 19px;
     }
@@ -46,7 +47,7 @@
         display: block;
         height: 70px;
         outline: none;
-        padding: 0 40px;        
+        padding: 0 40px;
         width: 566px;
     }
     .home__contact__content__form__group__textarea {

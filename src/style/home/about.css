@@ -32,12 +32,13 @@
     }
     .home__about__content__text {
         font-size: 14px;
+        font-family: var(--font-secondary);
     }
     .home__about__bkg {
-        margin-top: 52px;
-        margin-left: 35px;
-        height: 251px;
+        margin-top: 52px;        
+        height: 67vw;
         width: 100%;
-        background: url('img/about-bkg.png') no-repeat;
+        background: url('img/about-bkg.png') no-repeat right;
+        background-size: contain;
     }
 }

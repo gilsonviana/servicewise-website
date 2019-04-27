@@ -39,6 +39,7 @@
     .home__contact__content__text {
         max-width: 591px;
         margin-bottom: 60px;
+        font-family: var(--font-secondary);
     }
     .home__contact__content__form__group {
         margin-bottom: 19px;

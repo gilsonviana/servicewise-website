@@ -33,6 +33,9 @@
         font-weight: var(--font-weight-regular);
         margin-top: 30px;
     }
+    .home__contact__content__text {
+        font-family: var(--font-secondary);
+    }
     .home__contact__content__form {
         margin-top: 60px;
     }

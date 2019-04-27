@@ -8,7 +8,7 @@
     .home__download__bkg {
         background: url('img/download-bkg.png') no-repeat center;
         background-size: 90%;
-        height: 337px;
+        height: 90vw;
     }
     .home__download__content__body {
         max-width: 562px;

@@ -32,6 +32,7 @@
     }
     .home__about__content__text {
         font-size: 20px;
+        font-family: var(--font-secondary);
     }
     .home__about__bkg {
         background: url('img/about-bkg-md.png') no-repeat;

@@ -2,7 +2,7 @@
     font-family: 'Poppins';
     src:
         local('Poppins')
-        url('src/font/Poppins-Regular.ttf') format('truetype');
+        url('font/Poppins-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -11,7 +11,16 @@
     font-family: 'Poppins-Bold';
     src:
         local('Poppins')
-        url('src/font/Poppins-Bold.ttf') format('truetype');
+        url('font/Poppins-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src:
+        local('Helvetica')
+        url('font/Helvetica.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }

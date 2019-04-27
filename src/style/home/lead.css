@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     /**
     * Style
     */
@@ -6,7 +6,7 @@
         background: url('img/lead-bkg.png') no-repeat -12px;
         background-size: cover;
         color: var(--color-white);
-        height: 727px;
+        height: 194vw;
         position: relative;
     }
     .home__lead__header {

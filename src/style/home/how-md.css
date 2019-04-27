@@ -9,6 +9,7 @@
         font-size: 20px;
         margin: 0 auto;
         width: 597px;
+        font-family: var(--font-secondary);
     }
     .home__how__row__content__heading {
         width: 591px;

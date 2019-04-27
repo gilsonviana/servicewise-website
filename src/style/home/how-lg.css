@@ -13,6 +13,7 @@
     .home__how__row__content__text {
         font-size: 20px;
         width: 597px;
+        font-family: var(--font-secondary);
     }
     /* row 1 */
     .home__how__row:nth-child(1) {

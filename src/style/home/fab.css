@@ -4,7 +4,7 @@
         background: var(--color-ternary);
         border-radius: 5px 0 0 5px;
         color: var(--color-white);
-        padding: 9px 0 20px;
+        padding: 9px 0 12px;
         position: absolute;
         right: 0;
         top: 602px;
@@ -30,7 +30,7 @@
     }
     .home__fab__header__title {
         font-weight: var(--font-weight-bold);
-        font-size: 31px;
+        font-size: 20px;
     }
     .home__fab__header__subtitle {
         font-weight: var(--font-weight-regular);

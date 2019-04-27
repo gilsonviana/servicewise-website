@@ -3,9 +3,12 @@
      * Style
      */
     .home__lead {
-        background: url('img/lead-bkg-lg.png') no-repeat !important;
+        background: url('img/lead-bkg-lg.png') no-repeat;
         color: var(--color-white);
     }    
+    .home__lead__nav {
+        white-space: nowrap;
+    }
     .home__lead__nav__content__menu {
         display: flex;
         padding: 0;
@@ -80,7 +83,7 @@
      */
     .home__lead {
         display: grid;
-        grid-template-columns: var(--grid-gutter) 50% 40% var(--grid-gutter);
+        grid-template-columns: var(--grid-gutter) 54% 34% var(--grid-gutter);
         grid-template-rows: 34px 132px 843px;
         height: 1056px;
         position: relative;
