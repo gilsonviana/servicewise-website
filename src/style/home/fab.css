@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1919px) {
     .home__fab {
         box-sizing: border-box;
         background: var(--color-ternary);
@@ -10,14 +10,39 @@
         top: 602px;
         width: 96px;
     }
-    /* Add this class to apply style. Also home__fab__content element should be changed to display: block */
+    /* Add this class to apply style */
     .home__fab--open {
         padding-top: 31px;
         padding-bottom: 64px;
-        transform: translateY(-400px);
+        position: absolute;
+        top: 250px;
+        width: 330px !important;
+    }
+    .home__fab--open > .home__fab__header {
+        display: none;
+    }
+    .home__fab--open .home__fab__header {
+        flex-direction: row;
+    }
+    .home__fab--open .home__fab__header__title, .home__fab__header__subtitle {
+        font-size: 20px !important;
+    }
+    .home__fab--open .home__fab__content {
+        display: block !important;
+    }
+    .home__fab--open .home__fab__header__close {
+        position: absolute;
+        top: 18px;
+        right: 15px;
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
     .home__fab__content {
         display: none;
+        margin: 0 auto;
+        width: 281px;
     }
     .home__fab__header {
         display: flex;
@@ -36,7 +61,6 @@
         font-weight: var(--font-weight-regular);
     }
     .home__fab__content__form__group {
-        width: 281px;
         height: 64px;
         border-radius: 9px;
         background: var(--color-white);
@@ -60,7 +84,7 @@
         border-radius: 9px;
         outline: none;
         height: 53px;
-        width: 100%;
         font-weight: var(--font-weight-bold);
+        width: 100%;
     }
 }

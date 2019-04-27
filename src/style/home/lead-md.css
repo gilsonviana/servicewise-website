@@ -21,6 +21,67 @@
         border: none;
         outline: none;
     }
+    /* Add this class to make navbar sticky */
+    .home__lead__header--sticky {
+        position: fixed;
+        width: 90vw;
+        top: 0;
+        background:var(--color-white);
+        z-index: 99999;
+        box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16);
+    }
+    .home__lead__mobile__menu {
+        display: none;
+    }
+    /* Add this class to open menu */
+    .home__lead__mobile__menu--open {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 96vw;
+        background: var(--color-dark-blue);        
+        z-index: 99999;
+        padding: 36px 16px 57px;
+    }
+    .home__lead__mobile__menu__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 94px;
+    }
+    .home__lead__mobile__menu__header__close {
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    .home__lead__mobile__menu__content__nav {
+        padding: 0;
+        font-size: 29px;
+    }
+    .home__lead__mobile__menu__content__nav li {
+        margin-bottom: 34px;
+    }
+    .home__lead__mobile__menu__content__nav li.active a {
+        font-weight: var(--font-weight-bold);
+    }
+    .home__lead__mobile__menu__content__nav li.active::before {
+        content: "";
+        width: 132px;
+        height: 3px;
+        background: var(--color-secondary);
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+    .home__lead__mobile__menu__content__nav li a {
+        margin-left: 183px;
+    }
+    .home__lead__mobile__menu__footer {
+        border-top: 1px solid rgba(255, 255, 255, .34);
+        padding-top: 36px;
+        color: rgba(255, 255, 255, .44);
+        text-align: center;
+    }
     .home__lead__content {
         margin: 34px auto 0;
         max-width: 640px;

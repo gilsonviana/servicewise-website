@@ -9,14 +9,39 @@
         right: 0;
         width: 366px;
     }
-    /* Add this class to apply style. Also home__fab__content element should be changed to display: block */
+    /* Add this class to apply style */
     .home__fab--open {
         padding-top: 31px;
         padding-bottom: 64px;
-        transform: translateY(-400px);
+        position: absolute;
+        top: 616px;
+        width: 366px !important;
+    }
+    .home__fab--open > .home__fab__header {
+        display: none;
+    }
+    .home__fab--open .home__fab__header {
+        flex-direction: row;
+    }
+    .home__fab--open .home__fab__header__title, .home__fab__header__subtitle {
+        font-size: 20px !important;
+    }
+    .home__fab--open .home__fab__content {
+        display: block !important;
+    }
+    .home__fab--open .home__fab__header__close {
+        position: absolute;
+        top: 18px;
+        right: 15px;
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
     .home__fab__content {
         display: none;
+        margin: 0 auto;
+        width: 281px;
     }
     .home__fab__header {
         align-items: center;
