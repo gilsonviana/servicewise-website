@@ -8,6 +8,7 @@
         position: absolute;
         right: 0;
         width: 366px;
+        cursor: pointer;
     }
     /* Add this class to apply style */
     .home__fab--open {

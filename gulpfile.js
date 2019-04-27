@@ -41,10 +41,15 @@ gulp.task('css', () => {
         .pipe(browserSync.stream());
 });
 
+gulp.task('javascript', () => {
+    gulp.src('src/script/**/*.js')
+        .pipe(gulp.dest('dist/'));
+});
+
 /**
  * Create static server and watchers
  */
-gulp.task('browser-sync', ['html','css', 'imgSquash'], () => {
+gulp.task('browser-sync', ['html','css', 'javascript'], () => {
    browserSync.init({
        server: {
            baseDir: 'dist/'
@@ -53,7 +58,7 @@ gulp.task('browser-sync', ['html','css', 'imgSquash'], () => {
    
    gulp.watch('src/style/**/*.css', ['css']);
    gulp.watch('src/**/*.html', ['html']);
-//    gulp.watch('src/img/*.png', ['imgSquash']);
+   gulp.watch('src/script/**/*.js', ['javascript']);
    
    gulp.watch('src/**/*.html').on('change', browserSync.reload);
 });

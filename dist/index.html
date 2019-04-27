@@ -43,28 +43,28 @@
                 </button>
             </nav>
             <!-- Mobile - Tablet Menu -->
-            <div class="home__lead__header home__lead__header--sticky d-lg-none">
+            <div id="mobile__navbar" class="home__lead__header d-lg-none">
                 <a href="#" class="home__lead__logo">                    
                     <img src="img/logo.png" alt="service wise" class="home__lead__logo__img d-md-none" width="130">
                     <img src="img/logo-md.png" alt="service wise" class="home__lead__logo__img d-none d-md-block" width="204">
                 </a>
                 <nav class="home__lead__nav">                    
-                    <button class="home__lead__nav__toggler d-md-none">                        
-                        <img src="img/menu.png" alt="menu button">
+                    <button id="toggle-menu-sm" class="home__lead__nav__toggler d-md-none">                        
+                        <img id="menu-img" src="img/menu.png" alt="menu button">
                     </button>
-                    <button class="home__lead__nav__toggler d-none d-md-block">                        
+                    <button id="toggle-menu-md" class="home__lead__nav__toggler d-none d-md-block">                        
                         <img src="img/menu-md.png" alt="menu button">
                     </button>
                 </nav>
             </div>
             <!-- modal menu { --open }-->
-            <div class="d-lg-none home__lead__mobile__menu">
+            <div class="d-lg-none home__lead__mobile__menu" id="home__lead__mobile__menu">
                 <div class="home__lead__mobile__menu__header">
                     <a href="#" class="home__lead__mobile__menu__header__logo">                    
                         <img src="img/logo.png" alt="service wise" class="home__lead__logo__img d-md-none" width="130">
                         <img src="img/logo-md.png" alt="service wise" class="home__lead__logo__img d-none d-md-block" width="204">                     
                     </a>
-                    <button class="home__lead__mobile__menu__header__close">
+                    <button id="close-modal" class="home__lead__mobile__menu__header__close">
                         <img src="img/menu-close.png" alt="close menu">
                     </button>
                 </div>
@@ -317,6 +317,7 @@
             </div>
         </footer>
     </main>
+    <script src="main.js" type="text/javascript"></script>
 </body>
 
 </html>
