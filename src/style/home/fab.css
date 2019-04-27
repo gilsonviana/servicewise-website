@@ -1,75 +1,66 @@
-.home__fab {
-    box-sizing: border-box;
-    background: var(--color-ternary);
-    border-radius: 5px 0 0 5px;
-    color: var(--color-white);
-    padding: 9px 0 20px;
-    position: absolute;
-    right: 0;
-    top: 602px;
-    width: 96px;
-}
-
-/* Add this class to apply style. Also home__fab__content element should be changed to display: block */
-
-.home__fab--open {
-    padding-top: 31px;
-    padding-bottom: 64px;
-    transform: translateY(-400px);
-}
-
-.home__fab__content {
-    display: none;
-}
-
-.home__fab__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.home__fab__header__right {
-    display: inline-block;
-    margin-left: 14px;
-}
-
-.home__fab__header__title {
-    font-weight: var(--font-weight-bold);
-    font-size: 20px;
-}
-
-.home__fab__header__subtitle {
-    font-weight: var(--font-weight-regular);
-}
-
-.home__fab__content__form__group {
-    width: 281px;
-    height: 64px;
-    border-radius: 9px;
-    background: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    padding: 8px 13px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-}
-
-.home__fab__content__form__group__label {
-    font-weight: var(--font-weight-bold);
-    color: var(--color-ternary);
-}
-
-.home__fab__content__form__group__input {
-    border: none;
-    outline: none;
-}
-
-.home__fab__content__form__submit {
-    background: var(--color-secondary);
-    border: none;
-    border-radius: 9px;
-    outline: none;
-    height: 53px;
-    width: 100%;
-    font-weight: var(--font-weight-bold);
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .home__fab {
+        box-sizing: border-box;
+        background: var(--color-ternary);
+        border-radius: 5px 0 0 5px;
+        color: var(--color-white);
+        padding: 9px 0 20px;
+        position: absolute;
+        right: 0;
+        top: 602px;
+        width: 96px;
+    }
+    /* Add this class to apply style. Also home__fab__content element should be changed to display: block */
+    .home__fab--open {
+        padding-top: 31px;
+        padding-bottom: 64px;
+        transform: translateY(-400px);
+    }
+    .home__fab__content {
+        display: none;
+    }
+    .home__fab__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__fab__header__right {
+        display: inline-block;
+        margin-left: 14px;
+    }
+    .home__fab__header__title {
+        font-weight: var(--font-weight-bold);
+        font-size: 31px;
+    }
+    .home__fab__header__subtitle {
+        font-weight: var(--font-weight-regular);
+    }
+    .home__fab__content__form__group {
+        width: 281px;
+        height: 64px;
+        border-radius: 9px;
+        background: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        padding: 8px 13px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .home__fab__content__form__group__label {
+        font-weight: var(--font-weight-bold);
+        color: var(--color-ternary);
+    }
+    .home__fab__content__form__group__input {
+        border: none;
+        outline: none;
+    }
+    .home__fab__content__form__submit {
+        background: var(--color-secondary);
+        border: none;
+        border-radius: 9px;
+        outline: none;
+        height: 53px;
+        width: 100%;
+        font-weight: var(--font-weight-bold);
+    }
 }

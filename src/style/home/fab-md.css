@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1919px) {
     .home__fab {
         box-sizing: border-box;
         background: var(--color-ternary);
@@ -30,7 +30,7 @@
     }
     .home__fab__header__title {
         font-weight: var(--font-weight-bold);
-        font-size: 30px;
+        font-size: 31px;
     }
     .home__fab__header__subtitle {
         font-weight: var(--font-weight-regular);

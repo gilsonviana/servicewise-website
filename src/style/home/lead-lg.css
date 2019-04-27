@@ -4,6 +4,7 @@
      */
     .home__lead {
         background: url('img/lead-bkg-lg.png') no-repeat !important;
+        color: var(--color-white);
     }    
     .home__lead__nav__content__menu {
         display: flex;
@@ -41,7 +42,7 @@
         width: 113px;
     }
     .home__lead__content__subscribe {
-        display: flex;
+        display: flex !important;
         width: 626px;
     }
     .home__lead__content__subscribe__group {

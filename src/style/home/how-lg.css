@@ -55,7 +55,7 @@
         height: 695px;
     }
     .home__how__row:nth-child(2) .home__how__row__bkg {
-        background: url('img/how-row-2.png') no-repeat;
+        background: url('img/how-row-2-md.png') no-repeat;
     }
     .home__how__row:nth-child(2) .home__how__row__content {
         place-self: center;
@@ -107,5 +107,5 @@
     }
     .home__how__row:nth-child(even) div:nth-child(even) {
         grid-column: 3 / 5;
-    }
+    }    
 }

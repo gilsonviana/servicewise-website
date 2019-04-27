@@ -19,6 +19,8 @@
         display: none;
     }
     .home__fab__header {
+        align-items: center;
+        display: flex;        
         line-height: 30px;
     }
     .home__fab__header__right {

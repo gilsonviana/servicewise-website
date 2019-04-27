@@ -1,8 +1,8 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1919px) {
     /** 
      * Style
      */
-     .home__how {
+    .home__how {
         margin-top: 44px;
     }
     .home__how__row__content__text {
@@ -10,13 +10,17 @@
         margin: 0 auto;
         width: 597px;
     }
-    /* row 1 */
-    .home__how__row:nth-child(1) {
-        height: 715px;
+    .home__how__row__content__heading {
+        width: 591px;
+        margin: 0 auto;
+        font-weight: var(--font-weight-regular);
+        line-height: 61px;
     }
+    /* row 1 */    
     .home__how__row__content__header {
         margin: 0 auto 30px;
-        width: 311px;
+        width: 513px;
+        text-align: left;
     }
     .home__how__row__content__header__title::before {
         background: var(--color-secondary);
@@ -28,67 +32,66 @@
         position: relative;
         left: -24px;
     }
+    .home__how__row__content {
+        text-align: center;
+    }
     .home__how__row__content__header__title {
-        text-transform: uppercase;
-        transform: translateX(24px);
+        text-transform: uppercase;    
         line-height: 64px;
         font-weight: var(--font-weight-regular);
     }
     .home__how__row__content__header__subtitle {
         color: var(--color-dark-blue);
-        font-weight: var(--font-weight-bold);
-        text-align: center;
+        font-weight: var(--font-weight-bold);        
         ;
     }
     .home__how__row:nth-child(1) .home__how__row__bkg {
-        background: url('img/how-row-1.png') no-repeat;
-        background-size: contain;
-        background-position: -35px;
-        height: 335px;
-        margin-bottom: 20px;
+        background: url('img/how-row-1-md.png') no-repeat center;
+        background-size: cover;
+        background-position: -140px;
+        height: 75vw;
+        margin-bottom: 50px;
     }
     .home__how__row:nth-child(1) .home__how__row__content {
         margin-top: 89px;
     }
-    .home__how__row__content__heading {
-        width: 310px;
-        margin: 0 auto;
-        font-weight: var(--font-weight-regular);
-        line-height: 61px;
-    }    
     /* row 2 */
     .home__how__row:nth-child(2) {
-        margin-bottom: 60px;
+        margin: 60px 0;
+        text-align: center;
     }
     .home__how__row:nth-child(2) .home__how__row__bkg {
-        background: url('img/how-row-2.png') no-repeat;
-        background-position: 20px;
+        background: url('img/how-row-2-md.png') no-repeat;
+        background-position: 75px;
         background-size: cover;
-        height: 290px;
+        height: 70vw;
         margin-bottom: 40px;
     }
     /* row 3 */
     .home__how__row:nth-child(3) .home__how__row__bkg {
         background: url('img/how-row-3.png') no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: -75px;
-        height: 277px;
+        height: 80vw;
+    }
+    .home__how__row:nth-child(3) .home__how__row__content {
+        text-align: center;
     }
     .home__how__row:nth-child(3) .home__how__row__content__heading {
-        margin-top: 36px;
-        line-height: 33px;
+        margin-top: 78px;
+        line-height: 61px;
         margin-bottom: 22px;
+        width: 537px;
     }
-    /* row 4 */        
+    /* row 4 */
     .home__how__row:nth-child(4) {
-        text-align: center;        
+        text-align: center;
         margin: 0 auto;
     }
-
     .home__how__row:nth-child(4) .home__how__row__bkg {
         background: url('img/how-row-4.png') no-repeat right;
         background-size: contain;
-        height: 649px;
-        margin: 46px 0;        
+        height: 75vw;
+        margin: 46px 0;
     }
 }

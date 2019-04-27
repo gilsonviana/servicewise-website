@@ -1,12 +1,12 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1919px){
     /**
      * Style
      */
     .home__lead {
-        background: url('img/lead-bkg-md.png') no-repeat;
+        background: url('img/lead-bkg-md.png') no-repeat bottom;
         background-size: cover;
         color: var(--color-white);
-        height: 1152px;
+        height: 150vw;
         position: relative;        
     }    
     .home__lead__header {
@@ -23,7 +23,7 @@
     }
     .home__lead__content {
         margin: 34px auto 0;
-        max-width: 636px;
+        max-width: 640px;
     }
     .home__lead__content__title:nth-child(1) {
         line-height: 85px;        
@@ -45,7 +45,7 @@
         width: 79px;
     }
     .home__lead__content__subscribe {
-        display: flex;
+        display: flex !important;
         width: 626px;
     }
     .home__lead__content__subscribe__group {

@@ -7,7 +7,7 @@
         margin-bottom: 108px;
     }
     .home__download__bkg {
-        background: url('img/download-bkg.png') no-repeat;
+        background: url('img/download-bkg-lg.png') no-repeat;
         background-size: contain;
     }
     .home__download__content {

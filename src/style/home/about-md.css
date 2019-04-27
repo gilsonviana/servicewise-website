@@ -1,12 +1,11 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1919px) {
     /**
      * Style
      */
     .home__about {        
-        margin-top: 108px;        
+        margin-top: 30px;        
     }
-    .home__about__content {
-        place-self: center;
+    .home__about__content {        
         width: 592px;
         margin: 0 auto;
         text-align: center;
@@ -39,9 +38,9 @@
     .home__about__bkg {
         margin-top: 52px;
         margin-left: 59px;
-        height: 597px;
+        height: 75vw;
         width: 100%;
-        /* background: url('img/about-bkg.png') no-repeat; */
+        background: url('img/about-bkg-md.png') no-repeat;
         background-size: cover;
     }
 }
