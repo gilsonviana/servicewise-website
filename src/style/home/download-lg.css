@@ -1,4 +1,4 @@
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
     /**
  * Style
  */
@@ -24,6 +24,7 @@
     }
     .home__download__content__title {
         line-height: 89px;
+        font-size: 4vw;
     }
     .home__download__content__links {
         align-items: center;
