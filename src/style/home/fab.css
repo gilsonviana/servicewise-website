@@ -4,18 +4,15 @@
         background: var(--color-ternary);
         border-radius: 5px 0 0 5px;
         color: var(--color-white);
-        padding: 9px 0 12px;
-        position: absolute;
+        padding: 9px 9px 12px 0px;
+        position: fixed;
         right: 0;
-        top: 602px;
-        width: 96px;
+        bottom: 0;        
     }
     /* Add this class to apply style */
     .home__fab--open {
         padding-top: 31px;
-        padding-bottom: 64px;
-        position: absolute;
-        top: 250px;
+        padding-bottom: 64px;        
         width: 330px !important;
     }
     .home__fab--open > .home__fab__header {

@@ -17,8 +17,8 @@ gulp.task('imgSquash', () => {
  * Copy fonts
  */
 gulp.task('fonts', () => {
-    gulp.src('src/fonts/*.ttf')
-        .pipe(gulp.dest('fonts/'));
+    gulp.src('src/font/*.ttf')
+        .pipe(gulp.dest('dist/font/'));
 });
 
 /**

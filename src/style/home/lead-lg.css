@@ -47,10 +47,9 @@
     .home__lead__content__title span {
         display: inline-block;
         background: var(--color-dark-blue);
-        border-radius: 35px;
-        height: 58px;
-        text-align: center;
-        width: 113px;
+        border-radius: 35px;        
+        text-align: center;        
+        padding: 9px;
     }
     .home__lead__content__subscribe {
         display: flex !important;
@@ -92,8 +91,7 @@
     .home__lead {
         display: grid;
         grid-template-columns: var(--grid-gutter) 50% 34% var(--grid-gutter);
-        grid-template-rows: 34px 132px 843px;
-        height: 1056px;
+        grid-template-rows: 34px 132px 843px;        
         position: relative;
     }
     .home__lead__logo {
@@ -116,8 +114,18 @@
 
 @media screen and (min-width: 1920px) { 
     .home__lead {
-        background: url('img/lead-bkg-lg.png') no-repeat;        
-    }    
+        background: 
+            url('img/3-banner-lg.png') no-repeat center 360px,
+            url('img/2-banner-lg.png') no-repeat 10px 160px,
+            url('img/1-banner-lg.png') no-repeat;
+        color: var(--color-white);
+        background-size: 
+            69px,
+            45%,
+            cover;
+
+        padding-bottom: 6vw;
+    }   
 
     .home__lead__content__subscribe {        
         width: 626px;
@@ -129,8 +137,7 @@
     .home__lead {
         display: grid;
         grid-template-columns: var(--grid-gutter) 54% 34% var(--grid-gutter);
-        grid-template-rows: 34px 132px 843px;
-        height: 1056px;
+        grid-template-rows: 34px 132px 843px;        
         position: relative;
     }
     .home__lead__logo {

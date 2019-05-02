@@ -3,7 +3,7 @@
 * Style
 */
     .home__download {
-        margin-bottom: 67px;
+        margin: 95px 0 67px;
     }
     .home__download__bkg {
         background: url('img/download-bkg.png') no-repeat center;
@@ -16,7 +16,7 @@
         flex-direction: column;
     }
     .home__download__content {
-        width: 287px;
+        width: 80vw;
         margin: 20px auto 0;
     }
     .home__download__content__title {

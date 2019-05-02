@@ -2,19 +2,19 @@
     /**
  * Style
  */
-    .home__contact {
-        height: 43vw;
+    .home__contact {        
         background: url('img/contact-bkg-lg.png') no-repeat -55px 5px;
         background-size: cover;
         color: var(--color-white);
-        padding-top: 200px;
+        padding-top: 10vw;
+        padding-bottom: 6vw;
     }
     .home__contact__bkg {
         /* background: url('img/contact-bkg.png') no-repeat;     */
         background-size: 710px 640px;
     }
     .home__contact__content {
-        margin-left: 343px;
+        margin-left: 10vw;
     }
     .home__contact__content__title::before {
         background: var(--color-secondary);

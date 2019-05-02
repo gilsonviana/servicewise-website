@@ -9,7 +9,7 @@
         padding-bottom: 50px;
     }
     .home__contact__content {
-        width: 320px;
+        width: 80vw;
         margin: 0 auto;
         padding-top: 146px;
     }
@@ -50,7 +50,7 @@
         height: 70px;
         outline: none;
         padding: 0 40px;
-        width: 321px;
+        width: 100%;
     }
     .home__contact__content__form__group__textarea {
         height: 100px;

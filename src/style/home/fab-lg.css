@@ -5,17 +5,16 @@
         border-radius: 5px 0 0 5px;
         color: var(--color-white);
         padding: 12px 44px;
-        position: absolute;
+        position: fixed;
         right: 0;
+        bottom: 0;
         width: 366px;
         cursor: pointer;
     }
     /* Add this class to apply style */
     .home__fab--open {
         padding-top: 31px;
-        padding-bottom: 64px;
-        position: absolute;
-        top: 616px;
+        padding-bottom: 64px;                
         width: 366px !important;
     }
     .home__fab--open > .home__fab__header {

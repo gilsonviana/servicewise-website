@@ -3,11 +3,11 @@
     * Style
     */
     .home__lead {
-        background: url('img/lead-bkg.png') no-repeat -15px;
+        background: url('img/lead-bkg.png') no-repeat center top;
         background-size: cover;
-        color: var(--color-white);
-        height: 194vw;
+        color: var(--color-white);        
         position: relative;
+        height: 658px;
     }
     .home__lead__header {
         border-bottom: 2px solid var(--color-white);
@@ -84,7 +84,7 @@
     }
     .home__lead__content {
         margin: 50px auto 0;
-        max-width: 335px;
+        max-width: 80vw;
     }
     .home__lead__content__title:nth-child(1) {
         line-height: 38px;

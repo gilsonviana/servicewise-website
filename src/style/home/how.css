@@ -34,7 +34,8 @@
         color: var(--color-dark-blue);
         font-weight: var(--font-weight-bold);
         text-align: center;
-        ;
+        font-family: var(--font-primary);
+        font-size: 27px;
     }
     .home__how__row:nth-child(1) .home__how__row__bkg {
         background: url('img/how-row-1.png') no-repeat;
@@ -47,13 +48,13 @@
         margin-top: 89px;
     }
     .home__how__row__content__heading {
-        width: 310px;
+        width: 87vw;
         margin: 0 auto;
         font-weight: var(--font-weight-regular);
         line-height: 61px;
     }
     .home__how__row__content__text {
-        width: 310px;
+        width: 87vw;
         margin: 0 auto;
     }
     /* row 2 */
