@@ -3,18 +3,22 @@
      * Style
      */
     .home__lead {
-        background: url('img/lead-bkg-md.png') no-repeat bottom;
+        background: url('img/lead-bkg-md.png') no-repeat center 105px;
         background-size: cover;
         color: var(--color-white);
-        height: 150vw;
-        position: relative;        
+        height: 150vw;        
     }    
     .home__lead__header {
         border-bottom: 2px solid var(--color-white);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 24px var(--grid-gutter);        
+        padding: 24px var(--grid-gutter);   
+        background: var(--color-primary);    
+        position: absolute;
+        top: 0;
+        width: 100%; 
+        box-sizing: border-box;
     }
     .home__lead__nav__toggler {
         background: transparent;
@@ -24,7 +28,7 @@
     /* Add this class to make navbar sticky */
     .home__lead__header--sticky {
         position: fixed;
-        width: 90vw;
+        width: 100vw;
         top: 0;
         background:var(--color-white);
         z-index: 99999;
@@ -83,8 +87,9 @@
         text-align: center;
     }
     .home__lead__content {
-        margin: 34px auto 0;
+        margin: 0 auto;
         max-width: 640px;
+        padding-top: 16vw;
     }
     .home__lead__content__title:nth-child(1) {
         line-height: 85px;        
