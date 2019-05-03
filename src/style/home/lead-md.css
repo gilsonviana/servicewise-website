@@ -22,10 +22,13 @@
         width: 100%; 
         box-sizing: border-box;
     }
-    .home__lead__nav__toggler {
-        background: transparent;
+    .home__lead__nav__toggler {        
         border: none;
         outline: none;
+        background: url('img/menu-md.png') no-repeat;
+        background-size: cover;
+        width: 47px;
+        height: 25px;
     }
     /* Add this class to make navbar sticky */
     .home__lead__header--sticky {
@@ -35,6 +38,12 @@
         background:var(--color-white);
         z-index: 99999;
         box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16);
+    }
+    .home__lead__header--sticky .home__lead__nav__toggler {
+        background: url('img/menu-md-black.png') no-repeat;
+        background-size: cover;
+        width: 47px;
+        height: 25px;
     }
     .home__lead__mobile__menu {
         display: none;
