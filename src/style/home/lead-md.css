@@ -3,8 +3,10 @@
      * Style
      */
     .home__lead {
-        background: url('img/lead-bkg-md.png') no-repeat center 105px;
-        background-size: cover;
+        background:             
+            url('img/lead-bkg-md.png') no-repeat center;
+        background-size:             
+            cover;
         color: var(--color-white);
         height: 150vw;        
     }    
@@ -43,9 +45,10 @@
         position: fixed;
         top: 0;
         height: 100vh;
-        width: 96vw;
+        width: 100vw;
         background: var(--color-dark-blue);        
         z-index: 99999;
+        box-sizing: border-box;
         padding: 36px 16px 57px;
     }
     .home__lead__mobile__menu__header {
@@ -97,6 +100,15 @@
     }
     .home__lead__content__text {
         margin-bottom: 20px;
+    }
+    .home__lead__content__title:nth-child(1)::before {
+        content: "";
+        display: block;
+        position: absolute;
+        padding: 90px;        
+        top: 25vw;
+        margin-left: -60px;
+        background: url('img/arrow.png') no-repeat left;
     }
     .home__lead__content__title {
         margin-bottom: 13px;
