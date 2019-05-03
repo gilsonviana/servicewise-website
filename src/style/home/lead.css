@@ -1,21 +1,24 @@
-@media screen and (min-width: 400px) and (max-width: 767px) {
-    .home__lead {
-        background: url('img/lead-bkg.png') no-repeat center 60% !important;
-        background-size: cover !important;
-        color: var(--color-white);        
-        height: 595px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     /**
     * Style
     */
+    .home__lead::before {
+        content: "";
+        display: block;
+        background: url('img/lead-bkg-sm-mockup.png') no-repeat center;
+        background-size: cover;
+        width: 404px;
+        height: 414px;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .home__lead {
         background: url('img/lead-bkg.png') no-repeat center -55px;
         background-size: cover;
         color: var(--color-white);        
-        height: 595px;
+        height: 658px;
     }
     .home__lead__header {
         border-bottom: 2px solid var(--color-white);

@@ -2,13 +2,23 @@
     /**
      * Style
      */
+     .home__lead::before {
+        content: "";
+        display: block;
+        background: url('img/lead-bkg-md-mockup.png') no-repeat center 80%;
+        background-size: cover;
+        width: 644px;
+        height: 698px;        
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .home__lead {
-        background:             
-            url('img/lead-bkg-md.png') no-repeat center;
-        background-size:             
-            cover;
+        background: url('img/lead-bkg-md.png') no-repeat center;
+        background-size: cover;
         color: var(--color-white);
-        height: 150vw;        
+        height: 1260px;
     }    
     .home__lead__header {
         border-bottom: 2px solid var(--color-white);
@@ -101,7 +111,7 @@
     .home__lead__content {
         margin: 0 auto;
         max-width: 640px;
-        padding-top: 16vw;
+        padding-top: 135px;
     }
     .home__lead__content__title:nth-child(1) {
         line-height: 85px;        
