@@ -3,10 +3,10 @@
     * Style
     */
     .home__lead {
-        background: url('img/lead-bkg.png') no-repeat center top;
+        background: url('img/lead-bkg.png') no-repeat center -55px;
         background-size: cover;
         color: var(--color-white);        
-        height: 658px;
+        height: 595px;
     }
     .home__lead__header {
         border-bottom: 2px solid var(--color-white);
