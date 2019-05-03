@@ -1,3 +1,12 @@
+@media screen and (min-width: 400px) and (max-width: 767px) {
+    .home__lead {
+        background: url('img/lead-bkg.png') no-repeat center 60% !important;
+        background-size: cover !important;
+        color: var(--color-white);        
+        height: 595px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     /**
     * Style
