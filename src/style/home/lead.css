@@ -21,7 +21,8 @@
         background: var(--color-primary)
     }
     .home__lead__nav__toggler {
-        background: transparent;
+        background: url('img/menu.png') no-repeat;
+        padding: 10px 15px;
         border: none;
         outline: none;
     }
@@ -34,6 +35,9 @@
         z-index: 99998;
         box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16);        
     }    
+    .home__lead__header--sticky .home__lead__nav__toggler {
+        background: url('img/menu-black.png') no-repeat;
+    }
     .home__lead__mobile__menu {
         display: none;
     }
@@ -43,10 +47,11 @@
         position: fixed;
         top: 0;
         height: 100vh;
-        width: 92vw;
+        width: 100vw;
         background: var(--color-dark-blue);        
         z-index: 99999;
         padding: 36px 16px 57px;
+        box-sizing: border-box;
     }
     .home__lead__mobile__menu__header {
         display: flex;
