@@ -13,6 +13,12 @@
             45%,
             cover;
     }    
+    .home__lead__header .logo-mobile{
+        display: none;
+    }
+    .home__lead_bg-phone-images{
+        display: none;
+    }
     .home__lead__nav {
         white-space: nowrap;
     }

@@ -2,17 +2,24 @@
     /**
      * Style
      */
-     .home__lead::before {
-        content: "";
-        display: block;
-        background: url('img/lead-bkg-md-mockup.png') no-repeat center 80%;
-        background-size: cover;
-        width: 644px;
-        height: 698px;        
-        position: absolute;
-        top: 39%;
-        left: 50%;
-        transform: translateX(-50%);
+     
+    .home__lead_bg-phone-images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home__lead__header--sticky .home__lead__logo__img,
+    .home__lead__logo .logo-mobile{
+        display: none!important;
+    }
+    .home__lead__header--sticky .logo-mobile{
+        display: flex!important;
+        max-width: 130px;
+    }
+    .home__lead_bg-phone-images img{
+        width: 400px;
+        position: relative;
+        bottom: -90px;
     }
     .home__lead {
         background: url('img/lead-bkg-md.png') no-repeat center;

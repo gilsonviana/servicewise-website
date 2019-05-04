@@ -2,7 +2,7 @@
     /**
     * Style
     */
-    .home__lead::before {
+    /* .home__lead::before {
         content: "";
         display: block;
         background: url('img/lead-bkg-sm-mockup.png') no-repeat center;
@@ -13,6 +13,17 @@
         top: 18%;
         left: 50%;
         transform: translateX(-50%);
+    } */
+
+    .home__lead_bg-phone-images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home__lead_bg-phone-images img{
+        width: 365px;
+        position: relative;
+        bottom: -70px;
     }
     .home__lead {
         background: url('img/lead-bkg.png') no-repeat center -55px;
@@ -31,6 +42,14 @@
         top: 0;
         width: 100vw;
         background: var(--color-primary)
+    }
+    .home__lead__header--sticky img,
+    .home__lead__logo .logo-mobile{
+        display: none;
+    }
+    .home__lead__header--sticky .logo-mobile{
+        display: flex;
+        max-width: 130px;
     }
     .home__lead__nav__toggler {
         background: url('img/menu.png') no-repeat;
