@@ -25,7 +25,7 @@
     }
     .home__contact__content__title {
         text-transform: uppercase;
-        font-weight: var(--font-weight-regular);
+        font-weight: bold;
     }
     .home__contact__content__heading {
         font-weight: var(--font-weight-regular);
