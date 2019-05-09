@@ -1,10 +1,14 @@
 @media screen and (min-width: 1280px) {
     /**
  * Style
- */
+ */    
     .home__contact {        
-        background: url('img/contact-bkg-lg.png') no-repeat -55px 5px;
-        background-size: cover;
+        background: 
+            url('img/contact-bkg-lg-woman.png') no-repeat 95% 315px,
+            url('img/contact-bkg-lg.png') no-repeat 0 5px;
+        background-size: 
+            530px 432px,
+            cover;
         color: var(--color-white);
         padding-top: 10vw;
         padding-bottom: 6vw;
